@@ -13,3 +13,13 @@
 */
 
 @import url('../twentyfifteen/style.css');
+
+/* surcharge des règles css de twentyfifteen */
+
+body {
+    background-color: #333;    
+}
+
+a {
+    color: #922;
+}
