@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Megaju's First Theme WP</title>
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
 
 <body>

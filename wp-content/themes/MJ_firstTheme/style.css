@@ -6,3 +6,18 @@ Author URI: http://megaju.github.io
 Description: Mon tout premier thème, merci d'être indulgent. :)
 Version: 0.0.1
 */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #159;
+}
+
+section {
+    background-color: #bbb;
+    border: 1px solid #569;
+    color: #222;
+}
