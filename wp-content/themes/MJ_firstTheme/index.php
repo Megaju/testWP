@@ -9,13 +9,13 @@
 <body>
     <?php say_hello(); ?>
     
-    <header>
-        <?php wp_nav_menu(array('theme_location' => 'main_menu'));?>
-    </header>
+    <?php get_header(); ?>
     
     <aside>
         <?php dynamic_sidebar('my_custom_zone'); ?>
     </aside>
+       
+    <?php get_footer(); ?>
         
 </body>
 
