@@ -21,6 +21,9 @@
                     the_title();
                     the_content();
                     the_author();
+            
+                    comments_template();
+                    comment_form();
                 endwhile; 
             ?>
         </section>
