@@ -8,10 +8,15 @@
 
 <body>
     <?php say_hello(); ?>
-
-    <div>
+    
+    <header>
+        <?php wp_nav_menu(array('theme_location' => 'main_menu'));?>
+    </header>
+    
+    <aside>
         <?php dynamic_sidebar('my_custom_zone'); ?>
-    </div>
+    </aside>
+        
 </body>
 
 </html>
