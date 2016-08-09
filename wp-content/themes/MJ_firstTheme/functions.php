@@ -40,4 +40,11 @@ function zero_add_menu()
         return $title;
         }; 
 ?>
-        
+
+
+<!-- RENDRE UN TEMPLATE OBLIGATOIRE -->
+<!-- < ?php function get_template_part( $slug, $name = null )
+ -->
+<?php
+get_template_part( 'mon-template.php' );
+?>
