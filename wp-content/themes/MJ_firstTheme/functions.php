@@ -29,3 +29,15 @@ function zero_add_menu()
     ));
 };
 ?>
+
+
+<!-- FILTRE POUR TITLE (les titres de plus de 50 caractères sont tronqués) -->
+<?php add_filter('the_title', 'truncate_long_title');
+        function truncate_long_title($title) {
+            if (strlen($title) > 50) {
+                $title = substr($title, 0, 50).'...';
+            }
+        return $title;
+        }; 
+?>
+        

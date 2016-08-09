@@ -21,3 +21,9 @@ section {
     border: 1px solid #569;
     color: #222;
 }
+
+ol {
+    padding: 10px;
+    background-color: #222;
+    color: #eee;
+}

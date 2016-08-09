@@ -24,6 +24,7 @@
             
                     comments_template();
                     comment_form();
+
                 endwhile; 
             ?>
         </section>
