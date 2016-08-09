@@ -1,5 +1,17 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
 
-    say_hello();
+<head>
+    <meta charset="UTF-8">
+    <title>Megaju's First Theme WP</title>
+</head>
 
-    zero_add_sidebar();
+<body>
+    <?php say_hello(); ?>
+
+    <div>
+        <?php dynamic_sidebar('my_custom_zone'); ?>
+    </div>
+</body>
+
+</html>
