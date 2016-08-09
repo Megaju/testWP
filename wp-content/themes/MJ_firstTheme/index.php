@@ -7,16 +7,23 @@
 </head>
 
 <body>
-    <?php say_hello(); ?>
-    
-    <?php get_header(); ?>
-    
-    <aside>
-        <?php dynamic_sidebar('my_custom_zone'); ?>
-    </aside>
-       
-    <?php get_footer(); ?>
+    <?php say_hello(); get_header(); ?>
+
+        <aside>
+            <?php dynamic_sidebar('my_custom_zone'); ?>
+        </aside>
+
+        <section>
+            <?php
+                while (have_posts()) :
+                    the_post();
+                    the_content();
+                endwhile; 
+            ?>
+        </section>
         
+        <?php get_footer(); ?>
+
 </body>
 
 </html>
