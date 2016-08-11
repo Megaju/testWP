@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <title>Megaju's First Theme WP</title>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,300italic,300' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <?php say_hello(); get_header(); ?>
+    <?php get_header(); ?>
 
         <aside>
             <?php dynamic_sidebar('my_custom_zone'); ?>
