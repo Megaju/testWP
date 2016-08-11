@@ -11,9 +11,10 @@
 <body>
     <?php get_header(); ?>
 
-        <aside>
+       <div class="flexbox">
+        
             <?php dynamic_sidebar('my_custom_zone'); ?>
-        </aside>
+        
 
         <section>
             <?php
@@ -29,6 +30,8 @@
                 endwhile; 
             ?>
         </section>
+        
+        </div>
         
         <?php get_footer(); ?>
 

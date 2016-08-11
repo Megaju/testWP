@@ -21,10 +21,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-section {
-    background-color: #bbb;
-    border: 1px solid #569;
-    color: #222;
+.flexbox {
+    display: flex;
+    
 }
 
 ol {
@@ -49,6 +48,8 @@ ol {
 }
 
 .menu {
+    position: relative;
+    z-index: 99;
     width: 100%;
     height: 70px;
     line-height: 70px;
@@ -70,4 +71,18 @@ ol {
 
 .menu ul li:hover a {
     color: #159;
+}
+
+/* --- aside --- */
+aside {
+    width: 15%;
+    background-color: #37b;
+    color: #eee;
+}
+
+/* --- section principal du site --- */ 
+section {
+    width: 85%;
+    background-color: aliceblue;
+    color: #224;
 }
