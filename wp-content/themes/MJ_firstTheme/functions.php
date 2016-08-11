@@ -1,7 +1,7 @@
 <!-- PETIT TEST DE FONCTION PERSO -->
 <?php
     function say_hello() {
-        echo 'Salut tout le monde !';
+        echo '<p>Salut tout le monde !</p>';
     };
 ?>
 
